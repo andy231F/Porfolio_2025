@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f9f6ff;
+}
+
+.bg {
+  &-violet {
+    background-color: #8f6fcb;
+  }
+  &-lilac {
+    background-color: #ede4ff;
+  }
+  &-sherk {
+    background-color: #bace5a;
+  }
+}
+
+.text {
+  &-violet {
+    color: #8f6fcb;
+  }
+  &-peach {
+    color: #ede4d6;
+  }
+  &-sherk {
+    color: #bace5a;
+  }
+}
+
+@font-face {
+  font-family: "Zoika";
+  src: url("Assets/font/zoika.ttf");
+}
+
+@font-face {
+  font-family: "Bigband";
+  src: url("Assets/font/bigband.ttf");
+}
+
+@font-face {
+  font-family: "val";
+  src: url("Assets/font/VAL.otf");
+}
+
+.font {
+  &-zoika {
+    font-family: "Zoika";
+  }
+  &-bigband {
+    font-family: "Bigband";
+  }
+  &-val {
+    font-family: "val";
+  }
+}
+
+.marquee {
+  font-size: 2.4vw;
+  color: #fff;
+  font-family: "Zoika", "Courier New", Courier, monospace;
+  height: 2.5vw;
+  overflow: hidden;
+  background-color: #8f6fcb;
+  position: relative;
+  & div {
+    display: block;
+    width: 200%;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 12s linear infinite;
+  }
+  & span {
+    float: left;
+    width: 50%;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.outline-word {
+  -webkit-text-stroke: 4px #bace5a;
+  color: #ede8db;
+}

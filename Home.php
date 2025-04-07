@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Kandyss</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="bg-sherk h-[705px] w-full overflow-hidden">
+        <div class="z-3 text-peach px-4 text-xl font-mono flex justify-between pt-8">
+            <p data-aos="fade-right">Kandyss Camier</p>
+            <a href="mailto:kandyss.camier@epitech.eu">
+                <p class="text-right" data-aos="fade-down">kandyss.camier@epitech.eu</p>
+            </a>
+        </div>
+        <nav class="pt-6 flex justify-center items-center h-[500px]">
+            <div class="flex items-center w-full md:w-auto">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                    <li>
+                        <a href="#me"
+                            class="block hover:bg-lime-600 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2 text-peach">
+                            À propos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Project"
+                            class="block hover:bg-violet-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2 text-peach">
+                            Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#myGame"
+                            class="block hover:bg-lime-600 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2 text-peach">
+                            Lovia High
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Hobbies"
+                            class="block hover:bg-violet-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2 text-peach">
+                            Hobbies
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Contact"
+                            class="block hover:bg-lime-600 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-5 py-2.5 text-center me-2 mb-2 text-peach">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="font-val select-none text-[172px] font-bold outline-word text-center">
+            <p data-aos="fade-right" data-aos-duration="600"
+                class="text-outline font-bold leading-none absolute bottom-[25%] left-[13%]">
+                Portfolio</p>
+            <p data-aos="fade-right" data-aos-duration="800"
+                class="text-outline font-bold leading-none absolute bottom-[9%] left-[20%] aniamtion_time-second_word z-5">
+                Creatif
+            </p>
+        </div>
+
+
+        <img class="z-4 absolute transform bottom-[0%] w-60 transition-all duration-300 cursor-pointer filter grayscale-0 hover:grayscale"
+            src="../Assets/img/Me.png" alt="image description" data-aos="fade-down">
+
+        <div class="flex w-56 h-56 bg-violet rounded-full z-1 absolute -top-30 left-80"></div>
+        <div class="flex w-56 h-56 bg-violet rounded-full z-0 absolute bottom-0 -left-2"></div>
+        <div class="w-28 h-56 bg-violet rounded-l-full absolute  top-20 -right-0"></div>
+
+    </div>
+    <div class="bg-white text-blue-500 h-100 flex flex-col items-center justify-center p-20">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3  gap-40 mb-8">
+            <div class="flex flex-col items-center">
+                <a href="#me">
+                    <img src="../Assets/img/folder_01.png" class="h-16" alt="Folder">
+                </a>
+                <a href="#me" class="text-xl font-bold text-violet font-zoika">À propos</a>
+            </div>
+            <div class="flex flex-col items-center">
+                <a href="#myGame">
+                    <img src="../Assets/img/folder_03.png" class="h-16" alt="Folder">
+                </a>
+                <a href="#myGame" class="text-xl font-bold text-violet font-zoika">Lovia High</a>
+            </div>
+            <div class="flex flex-col items-center">
+                <a href="#Contact">
+                    <img src="../Assets/img/folder_05.png" class="h-16" alt="Folder">
+                </a>
+                <a href="#Contact" class="text-xl font-bold text-violet font-zoika">Contact</a>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-40">
+            <div class="flex flex-col items-center">
+                <a href="#Project">
+                    <img src="../Assets/img/folder_02.png" class="h-16" alt="Folder">
+                </a>
+                <a href="#Project" class="text-xl font-bold text-violet font-zoika">Project</a>
+            </div>
+            <div class="flex flex-col items-center">
+                <a href="#Hobbies">
+                    <img src="../Assets/img/folder_04.png" class="h-16" alt="Folder">
+                </a>
+                <a href="#Hobbies" class="text-xl font-bold text-violet font-zoika">Hobbies</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="marquee">
+        <div>
+            <span>Votre future alternante, disponible dès septembre.</span>
+            <span>Votre future alternante, disponible dès septembre.</span>
+        </div>
+    </div>
+
+    <div
+        class="rounded-l-lg w-9 h-60 bg-gray-800 text-white flex flex-col items-center justify-center fixed right-0 top-1/2 transform -translate-y-1/2 space-y-6">
+        <a href="https://www.linkedin.com/in/kandyss-camier/" target="_blank">
+            <i class="fa-brands fa-linkedin text-2xl"></i>
+        </a>
+        <a href="mailto:kandyss.camier@epitech.eu">
+            <i class="fa-solid fa-envelope"></i> </a>
+        <a href="https://github.com/andy231F?tab=repositories" target="_blank">
+            <i class="fa-brands fa-github"></i> </a>
+    </div>
+
+
+    <div class="bg-violet h-[1140px] pt-4 px-28" id="me">
+        <div>
+
+            <h3 class="font-bold font-sans text-3xl text-center"><span
+                    class="text-4xl text-sherk font-semibold">“Développeuse</span>
+                web à la Web@cadémie by <span class="text-white">EPITECH”</span> <br>
+                <span class="font-normal">Objectif</span> une <span class="text-sherk">alternance</span> pour septembre
+                2025 (14 mois) <br>
+                <span class="underline underline-offset-2">Le Rythme ?</span><span class="text-white"> 3 semaines en
+                </span>
+                <span class="text-sherk font-medium">entreprise</span> /
+                1 semaine en formation.
+
+            </h3>
+        </div>
+        <div class="py-14">
+            <h2 class="text-4xl font-bold dark:text-white font-zoika py-3">À PROPOS</h2>
+
+            <div class="text-xl text-white">
+                <div class="font-bold font-sans text-lg/8">
+                    <div class="text-justify">
+                        J'ai toujours été attirée par la création et la tech. Après mon bac (LLCE & Arts + LV2 coréen),
+                        j'ai
+                        fait une année sabbatique, bossé dans la restauration et j'ai par hasard découvert le code et...
+                        gros
+                        coup de cœur. Depuis, je n'ai plus lâché !
+                    </div>
+                    <br>
+                    &#128187;
+                    <span class="text-sherk">Développement web - </span>Je touche à tout : front, back, UI/UX… J'adore
+                    voir un projet prendre
+                    vie
+                    grâce à mes lignes de code.
+                    <br>
+
+                    &#127757; <span class="text-sherk">Bilingue anglais -</span> J'ai vécu 5 ans en Angleterre.
+                    L'anglais est une seconde nature pour
+                    moi. Je n'ai pas perdu la langue ni mon accent britannique. Je pense même en anglais avant de parler
+                    !
+                    <br>
+                    &#127912; <span class="text-sherk">Créative -</span> J'aime le design, le montage vidéo et la
+                    création visuelle (Canva, Procreate,
+                    IbisPaint X, Pixlr).
+                    <br>
+                    <br>
+                    Depuis 2022, je co-développe "Lovia High", un roman visuel interactif. C'est un projet qui me tient
+                    à cœur, où j'ai appris à coder, à designer des interfaces et à réfléchir à une vraie stratégie
+                    digitale.
+                    <br>
+                    Sinon, en dehors du code, je suis sois en train de crocheter un nouveau vêtement, soit avec un bon
+                    livre et une tasse de thé &#127861; &#128214;.
+                    <br>
+                    <br>
+                    <p class="text-xl text-center text-black"> &#128640; Prête à relever de nouveaux défis et à apporter
+                        ma créativité et mes compétences à votre équipe !</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-right">
+
+            <h2 class="text-4xl font-bold dark:text-white font-zoika"> OUTILS</h2>
+
+            <div class="text-4xl text-white ">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-php"></i>
+                <i class="fa-solid fa-database"></i> 
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+            </div>
+        </div>
+
+        <div class="py-8">
+            <h2 class="text-4xl font-bold dark:text-white font-zoika">LANGUES</h2>
+            <h3 class="text-xl font-bold dark:text-white font-sans">
+                Je parle <span class="text-sherk">français - (native)</span> <br>
+                I speak <span class="text-sherk">english - (C2)</span> <span class="text-fuchsia-200"> 4 ans au
+                    Royaume-Uni</span> <br>
+                <span class="text-sherk">한국</span>어를 조금 할 수 있어요 <span class="text-sherk">- (A2)</span>
+            </h3>
+        </div>
+
+        <a href="Assets/CV_Kandyss_CAMIER.pdf" download
+            class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 inline-block">
+            Télécharger mon CV
+        </a>
+    </div>
+
+    <div id="Project">
+        <div class="max-w-7xl mx-auto rounded-lg flex flex-col md:flex-row items-center px-8 my-20">
+            <div class="md:w-1/2 mt-4 md:mt-0 md:mr-20">
+                <img class="h-auto w-full rounded-sm" src="Assets/img/twitter.png" alt="image description">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-2xl font-bold text-gray-800">&#128187; Projet de Groupe : Pavk</h2>
+                <p class="text-gray-600 mt-2"><span class="font-semibold">
+                        &#128197; Durée :</span> 4 semaines</p>
+                <p class="text-gray-600"><span class="font-semibold">
+                        &#128736; Technos :</span> PHP - SQL - Tailwind
+                </p>
+                  <p class="text-gray-600"><span class="font-semibold">
+                        &#128218; Groupe :</span> 4 personnes
+                </p>
+                <p class="text-gray-700 mt-6 mr-5">
+                    Pavk est un Twitter responsive que nous avons développé en équipe,
+                    avec une mise en page optimisée grâce à Tailwind. Ce projet avait pour objectif de créer une
+                    plateforme où les utilisateurs peuvent publier et interagir.
+                    Il m'a permis de renforcer mes compétences en backend, tout en travaillant sur une interface
+                    utilisateur claire et responsive. La collaboration
+                    en équipe a été un véritable atout pour structurer efficacement le projet.
+                </p>
+                <div class="py-3">
+                    <a href="https://andy231f.github.io/PAVK/" target="_blank"
+                        class="inline-flex items-center justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <img src="Assets/img/demo.png" alt="logo" class="w-5 h-5 me-3">
+                        <span class="w-full">Guide</span>
+                        <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto rounded-lg flex flex-col md:flex-row items-center px-8 my-20">
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-2xl font-bold text-gray-800">&#128187; Projet Seule : My Cinema</h2>
+                <p class="text-gray-600 mt-2"><span class="font-semibold">
+                        &#128197; Durée :</span> 2 semaines</p>
+                <p class="text-gray-600"><span class="font-semibold">
+                        &#128736; Technos :</span> PHP - SQL
+                </p>
+                <p class="text-gray-700 mt-6 mr-5">
+                    My Cinema est une application web conçue pour la gestion et la planification des séances de cinéma.
+                    Ce projet m'a permis de manipuler des bases de données SQL et de renforcer mes compétences en PHP
+                    pour créer une interface administrative intuitive et efficace. J'ai travaillé sur l'affichage des
+                    films,
+                    la gestion des réservations et l'organisation des horaires. En veillant aussi à optimiser les
+                    requêtes et
+                    la
+                    structure des données.
+                </p>
+            </div>
+            <div class="md:w-1/2 mt-4 md:mt-0 md:mr-20">
+                <img class="h-auto w-full rounded-sm" src="Assets/img/gif/myCinema.gif"
+                    alt="gif de la page d'accuil de my cinema">
+            </div>
+        </div>
+
+
+        <div class="max-w-7xl mx-auto rounded-lg flex flex-col md:flex-row items-center px-8 my-20">
+            <div class="md:w-1/2 mt-4 md:mt-0 md:mr-20">
+                <img class="h-auto w-full rounded-sm" src="Assets/img/todo.jpg" alt="image description">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-2xl font-bold text-gray-800">&#128187; Projet Seule : To do list</h2>
+                <p class="text-gray-600 mt-2"><span class="font-semibold">
+                        &#128197; Durée :</span> 3 heures</p>
+                <p class="text-gray-600"><span class="font-semibold">
+                        &#128736; Technos :</span> HTML - CSS - Javascript
+                </p>
+                <p class="text-gray-700 mt-6 mr-5">
+                    Une To-Do List interactive et intuitive, développée en seulement 3 heures en colle ! 📝✨
+                    J'ai explorer la gestion du DOM avec JavaScript, en intégrant des fonctionnalités
+                    essentielles comme l'ajout, la suppression et la mise à jour des tâches. Un exercice rapide mais
+                    efficace pour renforcer mes compétences en JS Vanilla et en manipulation d'éléments dynamiques.
+                </p>
+                <div class="py-3">
+                    <a href="https://andy231f.github.io/To-do-list/" target="_blank"
+                        class="inline-flex items-center justify-center p-2 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <img src="Assets/img/demo.png" alt="logo" class="w-5 h-5 me-3">
+                        <span class="w-full">Demo</span>
+                        <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myGame">
+        <div class="bg-sherk text-blue-500 h-full flex flex-col items-center justify-center px-20">
+
+            <p class="mb-3 text-2xl font-bold text-sherk text-center">
+                Lovia High
+            </p>
+
+            <p class="mb-3 text-lg text-white md:text-2xl font-bold py-10">“Une histoire pour <span
+                    class="text-violet italic">toi</span>, par <span class="text-violet italic">toi</span> ! Le jeu se
+                façonne selon
+                tes propres choix.”
+            </p>
+
+            <div class="flex items-center justify-center w-full mb-8" data-aos="fade-down">
+                <img class="w-170  rounded-sm" src="Assets/img/gif/myGame.gif" alt="gif de Lovia High">
+            </div>
+
+            <div class="text-white p-6 w-full max-w-3xl text-justify">
+                <p class="mb-3">
+                    Lovia High est un roman visuel interactif où le joueur incarne une lycéenne nouvellement
+                    arrivée en ville.
+                </p>
+                <p class="mb-3">
+                    Chaque décision influence directement le déroulement de l'histoire, influençant les relations avec
+                    les personnages et les événements du jeu. Entre aventure, romance et mystère, chaque choix compte et
+                    détermine le destin de l'héroïne.
+                </p>
+                <p>
+                    Pensé pour être le plus inclusif possible, Lovia High permet au joueur de personnaliser son
+                    apparence
+                    avec un choix de couleur de peau, qui se reflète sur les illustrations. Le jeu inclut également une
+                    option de police adaptée aux lecteurs dyslexiques, garantissant une expérience accessible à tous.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div id="Hobbies">
+        <div class=" bg-white text-blue-500 h-full flex flex-col items-center justify-center p-20 ">
+            <p class="mb-8 text-lg text-gray-500 md:text-xl">Dessins réalisés avec Procreate.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-20 lg:gap-40 mb-8">
+                <div class="flex flex-col items-center container" data-aos="fade-down" data-aos-duration="1400">
+                    <div class="relative w-64 h-full rounded-xl group">
+                        <img src="../Assets/img/art_1.png" alt="Avatar" class="w-full h-full object-cover rounded-xl">
+
+                        <div
+                            class="absolute top-0 left-0 w-64 h-full opacity-0 rounded-xl transition-opacity duration-500 ease-in-out bg-gradient-to-r from-green-500/60 to-purple-300/60 group-hover:opacity-100 flex justify-center items-center">
+                            <div class="text-white text-center p-4 font-bold">
+                                <p><span class="font-medium bg-violet">Fanart</span> : Sandrine</p>
+                                <p><span class="font-medium bg-violet">Oeuvre</span> : Lovia High
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col items-center container" data-aos="fade-down" data-aos-duration="1400">
+                    <div class="relative w-64 h-full rounded-xl group">
+                        <img src="../Assets/img/art_2.png" alt="Avatar" class="w-full h-full object-cover rounded-xl">
+
+                        <div
+                            class="absolute top-0 left-0 w-64 h-full opacity-0 rounded-xl transition-opacity duration-500 ease-in-out bg-gradient-to-r from-green-500/60 to-purple-300/60 group-hover:opacity-100 flex justify-center items-center">
+                            <div class="text-white text-center p-4 font-bold">
+                                <p><span class="font-medium bg-violet">Fanart</span> : Chul & Miae</p>
+                                <p><span class="font-medium bg-violet">Oeuvre</span> : After school lessons for unripe
+                                    apples
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center container" data-aos="fade-down" data-aos-duration="1400">
+                    <div class="relative w-64 h-full rounded-xl group">
+                        <img src="../Assets/img/art_3.jpg" alt="Avatar" class="w-full h-full object-cover rounded-xl">
+
+                        <div
+                            class="absolute top-0 left-0 w-64 h-full opacity-0 rounded-xl transition-opacity duration-500 ease-in-out bg-gradient-to-r from-green-500/60 to-purple-300/60 group-hover:opacity-100 flex justify-center items-center">
+                            <div class="text-white text-center p-4 font-bold">
+                                <p><span class="font-medium bg-violet">Fanart</span> : OC</p>
+                                <p><span class="font-medium bg-violet">Oeuvre</span> : Couverture d'album</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="max-w-7xl mx-auto rounded-lg flex flex-col md:flex-row items-center px-8 my-20">
+            <div class="md:w-1/2 mt-4 md:mt-0 md:mr-20">
+                <img class="h-auto w-full rounded-sm" src="Assets/img/gif/kirbon.gif" alt="image description">
+            </div>
+            <div class="md:w-1/2 md:text-center text-left">
+                <h2 class="text-2xl font-bold text-gray-800">Kirbon Khaos</h2>
+                <p class="text-gray-700 mt-2 text-justify">
+                    Kirbon Khaos est un FPS 2D dans lequel le joueur incarne Oscar, un alien ayant atterri sur la
+                    mauvaise planète. Pour espérer rentrer chez lui, il devra affronter Kirbon, une créature vorace
+                    qui dévore tout sur son passage.
+                    <br>
+                    <br>
+                    Sur ce projet, j'ai eu carte blanche pour la création des assets graphiques ainsi que pour
+                    l'élaboration de la backstory. Cet exercice m'a permis de réaliser à quel point la collaboration
+                    entre l'artiste et le programmeur est essentielle : c'est cette fusion qui transforme une simple
+                    image en une véritable expérience de jeu.
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-white text-blue-500 h-full flex flex-col items-center justify-center px-6 sm:px-10 md:px-20 py-10">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 md:mb-8">Crochet</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 w-full max-w-5xl">
+            <div class="w-full relative">
+                <div class="swiper multiple-slide-carousel swiper-container relative">
+                    <div class="swiper-wrapper mb-8">
+                        <div class="swiper-slide">
+                            <div class="bg-indigo-50 rounded-2xl h-64 sm:h-80 md:h-96 flex justify-center items-center">
+                                <img src="Assets/img/img_1.jpg" alt="Image bonnet crochet"
+                                    class="rounded-2xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-indigo-50 rounded-2xl h-64 sm:h-80 md:h-96 flex justify-center items-center">
+                                <img src="Assets/img/img_2.jpg" alt="Image bonnet crochet"
+                                    class="rounded-2xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-indigo-50 rounded-2xl h-64 sm:h-80 md:h-96 flex justify-center items-center">
+                                <img src="Assets/img/img_3.jpg" alt="Bonnet crochet"
+                                    class="rounded-2xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-indigo-50 rounded-2xl h-64 sm:h-80 md:h-96 flex justify-center items-center">
+                                <img src="Assets/img/img_4.jpg" alt="Image bonnet crochet"
+                                    class="rounded-2xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-indigo-50 rounded-2xl h-64 sm:h-80 md:h-96 flex justify-center items-center">
+                                <img src="Assets/img/img_5.jpg" alt="Image haut crochet"
+                                    class="rounded-2xl w-full h-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="text-gray-800 leading-relaxed space-y-4 px-2 sm:px-4 text-sm sm:text-base md:text-lg text-center md:text-justify">
+                <p>Le crochet m'a permis de me libérer. Cela fait un an que j'en fais. Au-delà d'un simple
+                    loisir, c'est un vrai booster pour ma créativité et ma réflexion.</p>
+                <p>Comme pour toute nouvelle passion, mes premières réalisations laissaient à désirer. Elles étaient
+                    loin du résultat que j'espérais. Mais avec de la persévérance, j'ai progressé à une vitesse
+                    folle.</p>
+                <p>Récemment, je me suis d'ailleurs lancée dans le crochet freeform, une approche sans patron où
+                    l'on crée au feeling, guidé uniquement par son instinct. Une vraie liberté artistique qui me pousse
+                    à
+                    explorer de nouvelles formes et textures !</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact">
+        <div class="bg-violet text-blue-500 h-full flex flex-col items-center justify-center px-20">
+            <div class=" py-8">
+                <h2 class="mb-3 text-2xl font-bold text-sherk">
+                    Parlons-en !
+                </h2>
+
+                <p class="text-lg mr-90 text-white">Une question ? Une opportunité ? Une piste ? N'hésitez pas à me
+                    contacter, je serais ravie de discuter avec vous !
+                </p>
+
+                <div class="py-4">
+                    <p class="mb-3 text-xl font-bold text-sherk">
+                        Email
+                    </p>
+                    <a href="mailto:kandyss.camier@epitech.eu" class="mb-3 text-white">
+                        <p>kandyss.camier@epitech.eu</p>
+                    </a>
+                </div>
+
+                <p class="mb-3 text-xl font-bold text-sherk">
+                    Réseaux
+                </p>
+                <div class="flex gap-4">
+
+                    <a href="https://www.linkedin.com/in/kandyss-camier/" target="_blank"
+                        class="flex items-center justify-center w-12 h-12 rounded-full bg-sherk text-white">
+                        <i class="fa-brands fa-linkedin text-2xl"></i>
+                    </a>
+
+                    <a href="https://github.com/andy231F?tab=repositories" target="_blank"
+                        class="flex items-center justify-center w-12 h-12 rounded-full bg-sherk text-white">
+                        <i class="fa-brands fa-github text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a28af8ae80.js" crossorigin="anonymous"></script>
+    <script src="src/main.js"></script>
+</body>
+
+</html>
