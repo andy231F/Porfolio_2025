@@ -80,4 +80,14 @@ body {
 .outline-word {
   -webkit-text-stroke: 4px #bace5a;
   color: #ede8db;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  display: inline-block;
+  -webkit-text-stroke: 1px #0F172A;
+}
+
+.vertical.b {
+  text-orientation: upright;
 }/*# sourceMappingURL=style.css.map */
