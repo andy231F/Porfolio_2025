@@ -1,8 +1,8 @@
 <?php
 
 const DBHOST = "localhost";
-const DBUSER = "andy";
-const DBPASS = "Winxok123";
+const DBUSER = "host";
+const DBPASS = "password";
 
 $dsn = "mysql:host=" . DBHOST;
 
