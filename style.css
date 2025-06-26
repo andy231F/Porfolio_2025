@@ -13,7 +13,7 @@ body {
   background-color: #ede4ff;
 }
 .bg-sherk {
-  background-color: #bace5a;
+  background-color: #95a34f;
 }
 
 .text-violet {
@@ -78,7 +78,7 @@ body {
   }
 }
 .outline-word {
-  -webkit-text-stroke: 4px #bace5a;
+  -webkit-text-stroke: 4px #95a34f;
   color: #ede8db;
 }
 

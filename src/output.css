@@ -259,14 +259,14 @@
   .bottom-\[40px\] {
     bottom: 40px;
   }
-  .bottom-\[60px\] {
-    bottom: 60px;
-  }
   .bottom-\[120px\] {
     bottom: 120px;
   }
   .bottom-\[290px\] {
     bottom: 290px;
+  }
+  .bottom-\[300px\] {
+    bottom: 300px;
   }
   .bottom-\[380px\] {
     bottom: 380px;
@@ -286,8 +286,14 @@
   .left-\[13px\] {
     left: 13px;
   }
+  .left-\[19px\] {
+    left: 19px;
+  }
   .left-\[20\%\] {
     left: 20%;
+  }
+  .left-\[40px\] {
+    left: 40px;
   }
   .left-\[54\%\] {
     left: 54%;
@@ -985,6 +991,11 @@
   .md\:left-\[13\%\] {
     @media (width >= 48rem) {
       left: 13%;
+    }
+  }
+  .md\:left-\[19\%\] {
+    @media (width >= 48rem) {
+      left: 19%;
     }
   }
   .md\:left-\[20\%\] {
